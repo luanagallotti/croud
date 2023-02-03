@@ -1,3 +1,7 @@
+from editeNome import *
+from editeValor import *
+from editeQt import *
+
 
 def editar():
     print('***Edição de Produtos***')

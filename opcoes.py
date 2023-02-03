@@ -3,7 +3,7 @@ from edicao import editar
 from exclusao import excluir
 from cadastro import cadastrar
 from compras import *
-from desconto import *
+
 
 
 def opcoes():
