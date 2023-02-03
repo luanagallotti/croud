@@ -21,21 +21,21 @@ def vender ():
 
         else:
             break
-        print(f' valor a pagar {soma}')
-        if soma <= 1000:
-            desconto = (soma * (5/100))
-        elif soma >= 5000:
-            desconto = (soma * (10/100))
-        else:
-            desconto = (soma * (15/100))
-        print(f'Valor total R$ {soma}, desconto R$ {desconto}')
-        print(f'valor a pagar R$ {soma - desconto}')
-        troco = float(input('valor pago pelo cliente: '))
-        while troco < (soma - desconto):
-                print(f'Valor insuficiente, falta R$ {(soma - desconto) - troco}')
-                troco = float(input('valor pago pelo cliente: '))
-        else:
-            print(f' troco cliente R$ {troco - (soma - desconto)}')
+    print(f' valor a pagar {soma}')
+    if soma <= 1000:
+        desconto = (soma * (5/100))
+    elif soma >= 5000:
+        desconto = (soma * (10/100))
+    else:
+        desconto = (soma * (15/100))
+    print(f'Valor total R$ {soma}, desconto R$ {desconto}')
+    print(f'valor a pagar R$ {soma - desconto}')
+    troco = float(input('valor pago pelo cliente: '))
+    while troco < (soma - desconto):
+            print(f'Valor insuficiente, falta R$ {(soma - desconto) - troco}')
+            troco = float(input('valor pago pelo cliente: '))
+    else:
+        print(f' troco cliente R$ {troco - (soma - desconto)}')
 
 
 
